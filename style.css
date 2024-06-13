@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap');
+
+
 body {
     background-color: lightgray;
     background-size: 100%;
@@ -6,10 +9,11 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    font-family: Arial, sans-serif;
+    font-family: Oleo Script;
     color: #fff;
     text-align: center;
 }
+
 span{
     font-size: 70px;
     color: rgb(17, 225, 93);
@@ -26,7 +30,7 @@ span{
 .title {
     margin: 20px 0;
     font-family: cursive;
-    font-weight: bold;
+    font-weight: 900;
 }
 
 .subtitle {
