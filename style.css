@@ -1,0 +1,51 @@
+body {
+    background-image: url("img1.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+.bday {
+    background-color: rgba(0, 0, 0, 0.6); 
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 600px;
+    width: 90%;
+    margin: auto;
+}
+
+.title {
+    margin: 20px 0;
+    font-size: 2em;
+}
+
+.subtitle {
+    margin: 10px 0;
+    font-size: 1.5em;
+    color: pink; 
+}
+
+.img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 20%;
+    display: block;
+    margin: 20px auto;
+    filter: brightness(1.5);
+}
+
+.text {
+    font-size: larger;
+    font-style: italic;
+    padding: 20px;
+    color: #add8e6; 
+    text-align: center;
+}
