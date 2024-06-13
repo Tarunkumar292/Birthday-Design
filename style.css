@@ -1,6 +1,6 @@
 body {
-    background-image: url("img.jpg");
-    background-size: cover;
+    background-color: lightgray;
+    background-size: 100%;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
@@ -21,16 +21,19 @@ body {
 
 .title {
     margin: 20px 0;
+    font-family: cursive;
+    font-weight: bold;
 }
 
 .subtitle {
     margin: 10px 0;
     color: pink;
+    font-family: serif;
 }
 
 .img {
     max-width: 300px;
-    border-radius: 20%;
+    border-radius: 15%;
     margin: 20px auto;
     filter: brightness(1.5);
 }
